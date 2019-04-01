@@ -1,0 +1,118 @@
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+body {
+  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/digital-wallpaper-9.jpg);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: arial;
+  color: #C0C0C0;
+  text-shadow: -2px 2px 0 #000,
+				  2px 2px 0 #000,
+				 2px -2px 0 #000;
+				-2px -2px 0 #000;
+}
+
+p {
+  font-size: 20px;
+  font-family: arial;
+  color: #FFF8DC;
+}
+
+a {
+  color: #FFD700;
+}
+
+button {
+  text-align: center;
+}
+
+.mainButton {
+  background-color: #535353;
+  font-family: arial;
+  color: #FFD700;
+  position: absolute;
+  top: 60px;
+  width: 160px;
+  height: 50px;
+}
+
+.mainButton:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+#materials {
+  font-size: 30px;
+  left: 80px;
+}
+
+#instructions {
+  font-size: 29px;
+  left: 280px;
+}
+
+#photos {
+  font-size: 30px;
+  right: 300px;
+}
+
+#contact {
+  font-size: 30px;
+  right: 95px;
+}
+
+#title {
+  font-size: 64px;
+}
+
+#boxDarkGray {
+  position: absolute;
+  top: 185px;
+  left: 90px;
+  margin-bottom: 20px;
+  color: #FFF8DC;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+	width:250px;
+	height:600px;
+  background-color: #3F3F3F;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFD700;
+  font-family: arial;
+  font-size: 16px;
+  color: #FFF8DC;
+}
+
+#boxDarkGrayHide {
+  background-color: #535353;
+  font-family: arial;
+  color: #FFD700;
+  position: absolute;
+  top: 185px;
+  left: 55px;
+}
+
+#boxDarkGrayHide:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+#darkBackground {
+  position: absolute;
+  top: 20px;
+  width: 1520px;
+  height: 180px;
+  background-image: url(https://www.pawnandgifts.com/wp-content/uploads/2015/03/Dark-Grey-Background-31.jpg);
+}
